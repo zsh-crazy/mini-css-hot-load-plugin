@@ -1,6 +1,6 @@
 {
   "name": "mini-css-hot-load-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "修改webpack MiniCssExtractPlugin 部分代码，在不支持style热更新时采用热加载",
   "license": "MIT",
   "main": "dist/index.js",

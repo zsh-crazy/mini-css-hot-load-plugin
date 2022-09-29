@@ -1,0 +1,27 @@
+{
+  "name": "mini-css-hot-load-plugin",
+  "version": "1.0.0",
+  "description": "修改webpack MiniCssExtractPlugin 部分代码，在不支持style热更新时采用热加载",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">= 12.13.0"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "dependencies": {
+    "schema-utils": "^4.0.0"
+  },
+  "keywords": [
+    "webpack",
+    "css",
+    "extract",
+    "hmr"
+  ]
+}
